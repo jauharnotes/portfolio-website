@@ -22,3 +22,103 @@
 .c-right {
   flex: 1;
 }
+
+.c-title {
+  max-width: 50%;
+  font-size: 60px;
+  font-weight: 80%;
+}
+
+.c-info-item {
+  display: flex;
+  align-items: center;
+  margin: 50px 0 0;
+  font-weight: 300;
+  width: 70%;
+}
+
+.c-icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 20px;
+}
+
+.c-desc {
+  font-weight: 200;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+input {
+  width: 50%;
+  height: 50px;
+  border: none;
+  border-bottom: 1px solid black;
+  margin: 10px 0;
+  font-size: 14px;
+  padding-left: 10px;
+}
+
+textarea {
+  width: 100%;
+  margin: 10px 0;
+  font-size: 14px;
+  padding-left: 10px;
+}
+
+button {
+  width: 90px;
+  cursor: pointer;
+  padding: 15px;
+  border: none;
+  color: #fff;
+  background-color: #59b256;
+}
+
+.c-button {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+@media screen and (max-width: 480px) {
+  .c-wrapper {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .c-wrapper {
+    flex-direction: column;
+    padding: 0 50px;
+  }
+
+  .c-title {
+    font-size: 30px;
+    max-width: 100%;
+  }
+
+  .c-info-item {
+    margin: 20px 0;
+    width: 100%;
+  }
+  .c-desc {
+    display: none;
+  }
+
+  form {
+    margin-top: 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  input {
+    width: 80%;
+    height: 40px;
+    margin: 10px;
+  }
+}
