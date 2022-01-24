@@ -1,3 +1,5 @@
+![Preview](https://github.com/jauharnotes/portfolio-website/blob/master/src/img/preview.png?raw=true)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
